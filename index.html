@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KiranNaidu Portfolio Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Update these with your own fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="imgMine/devkiran.png" class="devkiran" alt="" />
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">My Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">My Work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi, I am <strong>Kiran Naidu</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+      <img
+        src="imgMine/kiran-1.jpg"
+        alt="a picture of Jane Smith smiling"
+        class="intro__img"
+      />
+    </section>
+
+    <!-- My services -->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">What I do</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Development</h3>
+          <p>
+            I'm a front-end developer, passionate about creating captivating and
+            user-friendly websites. I love turning designs into interactive
+            experiences using HTML, CSS, JavaScript and React.js. My goal is to
+            build visually appealing and responsive websites that leave a
+            lasting impression on users. My portfolio showcases the projects
+            I've worked on, highlighting my dedication to detail and commitment
+            to excellence.
+          </p>
+        </div>
+        <!-- / service -->
+
+        <div class="service">
+          <h3>Design</h3>
+          <p>
+            In my spare time, I unleash my creativity as a designer. I love
+            exploring the world of aesthetics, curating eye-catching layouts,
+            and crafting visually stunning interfaces. My passion for design
+            complements my development skills, allowing me to deliver seamless
+            user experiences that strike the perfect balance between beauty and
+            functionality.
+          </p>
+        </div>
+      </div>
+      <!-- / services -->
+
+      <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!-- About me -->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Who I am</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Designer & developer based out of Odisha
+      </p>
+
+      <div class="about-me__body">
+        <p>
+          Meet Kiran Naidu,<br />
+          I am a versatile front-end developer and designer proficient in
+          <strong>HTML, CSS, JavaScript, and React.js</strong>. With a strong
+          foundation in Core Java and expertise in
+          <strong>UI designing </strong>, I create captivating web experiences
+          that prioritize user satisfaction. Let's collaborate and bring your
+          digital visions to life!
+        </p>
+        <p>
+          Thank you for visiting my portfolio, and I'm excited to work together
+          on your next project!
+        </p>
+      </div>
+
+      <img
+        src="imgMine/kiran-2.jpg"
+        alt="Jane leaning against a bus"
+        class="about-me__img"
+      />
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">My work</h2>
+      <p class="section__subtitle section__subtitle--work">
+        A selection of my range of work
+      </p>
+
+      <div class="portfolio">
+        <!-- Portfolio item 01 -->
+        <a
+          href="https://kiran-airbnb-clone.netlify.app/"
+          target="_blank"
+          class="portfolio__item"
+        >
+          <img src="imgMine/project-1.jpg" alt="" class="portfolio__img" />
+        </a>
+
+        <!-- Portfolio item 02 -->
+        <a
+          href="https://kiranfood.netlify.app/"
+          target="_blank"
+          class="portfolio__item"
+        >
+          <img src="imgMine/project-2.jpg" alt="" class="portfolio__img" />
+        </a>
+
+        <!-- Portfolio item 03 -->
+        <a
+          href="https://kiran7th.netlify.app"
+          target="_blank"
+          class="portfolio__item"
+        >
+          <img src="imgMine/project-3.jpg" alt="" class="portfolio__img" />
+        </a>
+
+        <!-- Portfolio item Template -->
+        <!-- <a href="portfolio-item.html" class="portfolio__item">
+          <img src="img/portfolio-04.jpg" alt="" class="portfolio__img" />
+        </a> -->
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <!-- replace with your own email address -->
+      <a href="mailto:kirannaidun26@gmail.com" class="footer__link"
+        >kirannaidun26@gmail.com</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.linkedin.com/in/kiran--naidu/"
+            target="_blank"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            target="_blank"
+            href="https://discordapp.com/users/kirannaidu"
+          >
+            <i class="fab fa-discord"></i>
+          </a>
+        </li>
+        <!-- <li class="social-list__item">
+          <a class="social-list__link" href="https://twitter.com">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li> -->
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            target="_blank"
+            href="https://github.com/Kirannaidu7"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
